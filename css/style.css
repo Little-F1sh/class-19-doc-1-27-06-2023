@@ -107,3 +107,33 @@ img {vertical-align: middle;}
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+/* tabbed menu */
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.tablink:hover {
+  background-color: #777;
+
+}
+#London {
+  background-color: red;
+}
+#Paris {
+  background-color: green;
+}
+#Tokyo {
+  background-color: blue;
+}
+#Oslo {
+  background-color: orange;
+}
